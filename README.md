@@ -22,7 +22,7 @@ Features
 -------------
 
 ### News
-Currently there is a link to the news posted by www.datareport.eu
+Currently there is a link to the news posted by www.datareporter.eu within a new window (attention: js popup must be activated for the page in order to be able to open the page)
 
 ![alt newssection](docs/images/main_menu.png)
 
