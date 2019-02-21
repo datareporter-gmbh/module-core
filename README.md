@@ -23,6 +23,7 @@ Features
 
 ### News
 Currently there is a link to the news posted by www.datareport.eu
+
 ![alt newssection](docs/images/main_menu.png)
 
 ### Account Configuration
