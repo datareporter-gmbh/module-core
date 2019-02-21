@@ -33,3 +33,10 @@ See ```Privacy -> Configuration``` or ```Stores -> Configuration -> DataReporter
 * ClientId, OrganisationId, WebsiteId: These values are provided by DataReporter for your account
 
 ![alt configuration](docs/images/configuration.png)
+
+#####Demo
+
+Use following Demo-Credentials if you wanna try out the module, see ````Privacy -> Configuration````
+
+* Client-Id: 33f002cc-2586-42b6-987d-548b2953c7b8
+* Organisation-Id: R5spy6ZYDqA
