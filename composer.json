@@ -1,7 +1,7 @@
 {
   "name": "datareporter/module-core",
   "type": "magento2-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Core Magento2 module containing base containers for config and news",
   "license": [ "MIT" ],
   "keywords":[ "composer-installer", "magento2", "data privacy"],
