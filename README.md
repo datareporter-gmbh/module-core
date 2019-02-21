@@ -34,7 +34,7 @@ See ```Privacy -> Configuration``` or ```Stores -> Configuration -> DataReporter
 
 ![alt configuration](docs/images/configuration.png)
 
-#####Demo
+####Demo
 
 Use following Demo-Credentials if you wanna try out the module, see ````Privacy -> Configuration````
 
