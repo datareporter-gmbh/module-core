@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- Privacy -->
+        <add id="DataReporter_Core::menu" title="Privacy" module="DataReporter_Core" sortOrder="900" resource="DataReporter_Core::menu"/>
+
+        <!-- Privacy -> DataReporter -->
+        <add id="DataReporter_Core::datareporter" title="DataReporter" module="DataReporter_Core" sortOrder="10" resource="DataReporter_Core::menu" parent="DataReporter_Core::menu"/>
+
+        <!-- Privacy -> DataReporter -> News -->
+        <add id="DataReporter_Core::news" title="News" module="DataReporter_Core" sortOrder="10" resource="DataReporter_Core::menu" parent="DataReporter_Core::datareporter"/>
+
+        <!-- Privacy -> DataReporter -> Configuration -->
+        <add id="DataReporter_Core::configuration" title="Configuration" module="DataReporter_Core" sortOrder="20"
+             action="adminhtml/system_config/edit/section/datareporter/"
+             resource="DataReporter_Core::menu" parent="DataReporter_Core::datareporter"/>
+    </menu>
+</config>

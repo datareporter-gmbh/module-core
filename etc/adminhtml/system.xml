@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="datareporter_tab" translate="label" sortOrder="900">
+            <label><![CDATA[<span class="datareporter-logo-config">DataReporter</span>]]></label>
+        </tab>
+
+        <section id="datareporter" translate="label" sortOrder="160" showInDefault="1" showInWebsite="1" showInStore="1" >
+            <label>Settings</label>
+            <tab>datareporter_tab</tab>
+            <resource>DataReporter_Core::config</resource>
+            <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="client_id" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Client Id</label>
+                </field>
+                <field id="organisation_id" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Organisation Id</label>
+                </field>
+                <field id="website_id" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Website Id</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
