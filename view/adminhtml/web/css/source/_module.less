@@ -1,0 +1,19 @@
+@datareporter-icons-admin__font-name-path: '@{baseDir}DataReporter_Core/fonts/datareporter';
+@datareporter-icons-admin__font-name : 'DataReporter';
+.lib-font-face(
+  @family-name:@datareporter-icons-admin__font-name,
+  @font-path: @datareporter-icons-admin__font-name-path,
+  @font-weight: normal,
+  @font-style: normal
+);
+
+.admin__menu #menu-datareporter-core-menu.level-0 > a:before {
+  font-family: @datareporter-icons-admin__font-name;
+  content: "\0061";
+  font-size: 3.4rem;
+}
+
+.datareporter-logo-config::before {
+  margin-right: 5px;
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wIVBiAyGN0+0QAAAQ5JREFUOMuV071KA0EUBeBvY9BGQRCbFGKpjaTxFSxEsLER5gXGQvAt7CQY2MJ2BStfwspKBBUrK99AxRh/YuGuxHU3JAcGZuYO594z91wmQZr9u2qWHmzjFB+ldz1c4Rwn0iwRwwCSEkELe0MELyWiKTyLoSvNiKFE8JdsCRd4r4hOYxO3zRGKH3M5XzXxLTHcJHm2dXQrtA9GJEjQKSp4wgM+0Z+gL61GvrkXwy4OMY/ZMdfKTwUxFIwzmKuQUod+Is0OsDqkdxIJd02soW1yJLgsurCAmH/iuOiJ4ajoQhv7Naapwgw2pFmS1LhwB8sVkQZexXBcWLnOiR0sDp3fcI2zfA5+h2mskR0V+wZbm0eIWDq35AAAAABJRU5ErkJggg==');
+}
